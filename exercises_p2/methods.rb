@@ -16,6 +16,7 @@ multiply(10, 2)
 
 def scream(words)
   puts words + "!!!!"
+  puts "#{words}"
 end
 
 scream("WTF")
