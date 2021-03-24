@@ -34,3 +34,40 @@ The second one gets an error because we have not defined x as an variable.
 i suppose they want to replace margaret with jody so
 names[3] = 'jody' 
 would work fine.
+
+# excercises P1 end
+
+## Hashes
+person[:name]
+---------------------
+in my_hash we have a symbol as a key. symbols are immutable so they cannot be changed. you can think of symbols as variable. 
+
+in my_hash2 we have a string as a key they are similar but symbols are faster to create and saves memory because they are only stored once.
+
+## Flow Control
+1. false
+2. false
+3. false
+4. true
+5. true
+
+---------------------
+1. FALSE
+2. Did you get it right?
+3. Alright now!
+
+------------------
+
+expectig and end for the def
+
+def equal_to_four(x)
+  if x == 4
+    puts "yup"
+  else
+    puts "nope"
+  end
+end
+equal_to_four(5)
+
+## Methods
+ArgumentError: wrong number of arguments (1 for 2) new ((given 1, expected 2)) you have given 1 argument when it's expecting 2 arguments.
