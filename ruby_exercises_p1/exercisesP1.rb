@@ -22,3 +22,14 @@ end
 
 # Variables
 # in name.rb and age.rb file
+
+# ----------------------------------------
+arr1 = [1, 3, 5, 7, 9, 11]
+number = 3
+arr1.include?(number)
+
+
+arr2 = [["test", "hello", "world"],["example", "mem"]]
+puts arr2[1][0]
+
+
